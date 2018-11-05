@@ -1,0 +1,18 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <h1>Stupid Coaching</h1>
+  <form action="http://localhost:3000/answer?question">
+  <label for="name">Ask your question:</label><input type="text" name="ask">
+  <input type="submit" value="Ask!">
+</form>
+</body>
+</html>
+ -->
+<span> - You:</span><p><%= @question %></p>
+<span> - Your lovely Coach: </span><p><%= @answer %></p>
+<%= link_to "Ask a new question", ask_path %>
+
